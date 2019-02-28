@@ -38,7 +38,7 @@ public class LogTest {
         loginField.sendKeys("laodik");
         wait.until(ExpectedConditions.elementToBeClickable(By.id("user_login")));
         WebElement passwordField = driver.findElement(By.id("user_pass"));
-        passwordField.sendKeys("1qazse432");
+        passwordField.sendKeys("passw");
         wait.until(ExpectedConditions.elementToBeClickable(By.id("user_login")));
         WebElement loginButton = driver.findElement(By.id("wp-submit"));
         loginButton.click();
@@ -73,7 +73,7 @@ public class LogTest {
         WebElement loginField = driver.findElement(By.id("user_login"));
         loginField.sendKeys("laodik");
         WebElement passwordField = driver.findElement(By.id("user_pass"));
-        passwordField.sendKeys("1qazse432");
+        passwordField.sendKeys("passw");
         WebElement loginButton = driver.findElement(By.id("wp-submit"));
         loginButton.click();
         driver.get("http://kazak-edinstvo.ru/");
