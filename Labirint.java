@@ -56,7 +56,7 @@ class Main
                     }
                 }
             }
-            if (currentIndex>64) endPathStatus="There is no way";
+            if (currentIndex>=64) endPathStatus="There is no way out!";
             else currentIndex++;
         }
         return (Map);
