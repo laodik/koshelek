@@ -3,7 +3,6 @@ import java.io.FileReader;
 import java.util.Scanner;
 import java.util.ArrayList;
 
-
 class Main
 {
     private static Integer currentIndex=2;
